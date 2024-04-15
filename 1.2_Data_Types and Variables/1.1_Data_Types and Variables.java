@@ -61,6 +61,16 @@ class Program
 }
 ```
 
+Variables
+Variables in C# 10 work the same way as in previous versions, but the new features and improvements can make your code more concise and expressive.
+
+Inferred Tuple Names: C# 10 allows you to infer the names of tuple elements, making your code cleaner and more readable.
+    
+var point = (X: 10, Y: 20);
+
+Console.WriteLine($"Point: ({point.X}, {point.Y})");
+
+
 In this example:
 
 - Various data types are demonstrated, including integers, floating-point numbers, strings, booleans, and characters.
